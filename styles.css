@@ -1,0 +1,50 @@
+* {
+  background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Georgia;
+  text-align: justify;
+  margin: 10;
+  padding: 10;
+}
+
+header {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.mini-desc {
+  color: darkcyan;
+  font-size: 16px;
+}
+
+h1,
+h3,
+h4 {
+  color: #333;
+}
+
+article,
+section {
+  max-width: 800px;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.stars {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.stars .filled {
+  color: black; /* Yellow color for filled stars */
+}
